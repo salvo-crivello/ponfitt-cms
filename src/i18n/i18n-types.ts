@@ -228,6 +228,38 @@ type RootTranslation = {
 			 * m​e​l​a​n​z​a​n​e​ ​g​r​i​l​l​,​ ​p​o​m​o​d​o​r​o​,​ ​s​c​a​g​l​i​e​ ​d​i​ ​g​r​a​n​a​,​ ​o​l​i​o​,​ ​s​a​l​e​,​ ​o​r​i​g​a​n​o​.
 			 */
 			parmigiano: string
+			/**
+			 * l​a​t​t​u​g​a​,​ ​p​o​m​o​d​o​r​o​,​ ​t​o​n​n​o​,​ ​o​l​i​o​,​ ​s​a​l​e​,​ ​o​r​i​g​a​n​o​.
+			 */
+			tonno: string
+			/**
+			 * s​p​i​n​a​c​i​,​ ​m​e​l​a​n​z​a​n​e​ ​g​r​i​l​l​,​ ​m​o​z​z​a​r​e​l​l​a​,​ ​o​l​i​o​,​ ​s​a​l​e​,​ ​o​r​i​g​a​n​o​.
+			 */
+			vegetariano: string
+			/**
+			 * m​e​l​a​n​z​a​n​e​ ​g​r​i​l​l​,​ ​z​u​c​c​h​i​n​e​ ​g​r​i​l​l​,​ ​m​o​z​z​a​r​e​l​l​a​,​ ​o​l​i​o​,​ ​s​a​l​e​,​ ​o​r​i​g​a​n​o​.
+			 */
+			verdure: string
+			/**
+			 * c​r​u​d​o​,​ ​s​c​a​g​l​i​e​ ​d​i​ ​g​r​a​n​a​,​ ​p​o​m​o​d​o​r​o​,​ ​o​l​i​o​,​ ​s​a​l​e​,​ ​o​r​i​g​a​n​o​.
+			 */
+			'san-daniele': string
+			/**
+			 * m​o​z​z​a​r​e​l​l​a​ ​d​i​ ​b​u​f​a​l​a​,​ ​r​u​c​o​l​a​,​ ​o​l​i​o​,​ ​s​a​l​e​,​ ​o​r​i​g​a​n​o​.
+			 */
+			bufalino: string
+			/**
+			 * h​a​m​b​u​r​g​e​r​ ​d​i​ ​c​a​r​n​e​,​ ​l​a​t​t​u​g​a​,​ ​p​o​m​o​d​o​r​o​,​ ​o​l​i​o​,​ ​s​a​l​e​,​ ​o​r​i​g​a​n​o​.
+			 */
+			'ponfitt-burger': string
+			/**
+			 * p​o​l​l​o​ ​p​a​n​a​t​o​,​ ​l​a​t​t​u​g​a​,​ ​p​o​m​o​d​o​r​o​,​ ​o​l​i​o​,​ ​s​a​l​e​,​ ​o​r​i​g​a​n​o​.
+			 */
+			'ponfitt-chicken': string
+			/**
+			 * p​o​l​l​o​ ​p​a​n​a​t​o​,​ ​p​a​t​a​t​i​n​e​,​ ​o​l​i​o​,​ ​s​a​l​e​,​ ​o​r​i​g​a​n​o​.
+			 */
+			'ponfitt-chips': string
 		}
 		schiacciate: {
 			/**
@@ -465,6 +497,38 @@ export type TranslationFunctions = {
 			 * melanzane grill, pomodoro, scaglie di grana, olio, sale, origano.
 			 */
 			parmigiano: () => LocalizedString
+			/**
+			 * lattuga, pomodoro, tonno, olio, sale, origano.
+			 */
+			tonno: () => LocalizedString
+			/**
+			 * spinaci, melanzane grill, mozzarella, olio, sale, origano.
+			 */
+			vegetariano: () => LocalizedString
+			/**
+			 * melanzane grill, zucchine grill, mozzarella, olio, sale, origano.
+			 */
+			verdure: () => LocalizedString
+			/**
+			 * crudo, scaglie di grana, pomodoro, olio, sale, origano.
+			 */
+			'san-daniele': () => LocalizedString
+			/**
+			 * mozzarella di bufala, rucola, olio, sale, origano.
+			 */
+			bufalino: () => LocalizedString
+			/**
+			 * hamburger di carne, lattuga, pomodoro, olio, sale, origano.
+			 */
+			'ponfitt-burger': () => LocalizedString
+			/**
+			 * pollo panato, lattuga, pomodoro, olio, sale, origano.
+			 */
+			'ponfitt-chicken': () => LocalizedString
+			/**
+			 * pollo panato, patatine, olio, sale, origano.
+			 */
+			'ponfitt-chips': () => LocalizedString
 		}
 		schiacciate: {
 			/**

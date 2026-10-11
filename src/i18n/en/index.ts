@@ -73,7 +73,15 @@ const en = {
       caprese: "lettuce, tomato, mozzarella, oil, salt, oregano.",
       "pane-consato": "caciocavallo cheese, anchovies, tomato, anchovies, oil, salt, oregano.",
       schiacciatina: "tomato, mozzarella, ham, oil, salt, oregano.",
-      parmigiano: "grilled aubergines, tomato, parmesan flakes, oil, salt, oregano."
+      parmigiano: "grilled aubergines, tomato, parmesan flakes, oil, salt, oregano.",
+      tonno: "lettuce, tomato, tuna fish, oil, salt, oregano.",
+      vegetariano: "spinach, grilled aubergines, mozzarella, oil, salt, oregano.",
+      verdure: "grilled aubergines, grilled courgettes, mozzarella, oil, salt, oregano.",
+      "san-daniele": "cured ham, parmesan flakes, tomato, oil, salt, oregano.",
+      bufalino: "buffalo mozzarella, rocket, oil, salt, oregano.",
+      "ponfitt-burger": "beef burger, lettuce, tomato, oil, salt, oregano.",
+      "ponfitt-chicken": "breaded chicken, lettuce, tomato, oil, salt, oregano.",
+      "ponfitt-chips": "breaded chicken, chips, oil, salt, oregano."
     },
     schiacciate: {
       funghi: "tomato, mozzarella, mushrooms, oil, salt, oregano.",
