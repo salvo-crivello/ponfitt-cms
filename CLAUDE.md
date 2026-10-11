@@ -45,8 +45,18 @@ Deploy: Vercel (no `vercel.json` needed).
 `next/font/local`); body: Helvetica Neue stack (system font, no webfont).
 Global defaults live in `@layer base` — unlayered rules would beat utilities.
 
+## Branches & deploy
+
+`develop` (work) → PR → `main`. Vercel's Git integration deploys `main` to
+production and `develop` as a preview, no Actions deploy and no secrets.
+`ci.yml` (lint, typecheck, test, build) runs on PRs to `develop`/`main` and
+pushes to `develop`; make it required on `main` via branch protection
+(Settings → Branches) so a red PR can't be merged.
+
 ## Gotchas
 
+- Typecheck with `yarn typecheck` (runs `next typegen` first). `next-env.d.ts` is gitignored
+  and holds the `*.png` module types, so a bare `tsc` on a fresh checkout/CI fails.
 - Set `NEXT_PUBLIC_SITE_URL` on Vercel, otherwise the canonical URL points to localhost.
 - Metadata (title/description) is Italian only: language is client-side state, so
   crawlers see the Italian page. Revisit if English SEO matters.
