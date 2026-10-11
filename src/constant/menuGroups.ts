@@ -6,7 +6,7 @@ export const MENU_GROUPS: TMenuGroup[] = [
   { id: "schiacciate", categoryIds: ["schiacciate"] }
 ]
 
-export const DEFAULT_MENU_GROUP: TMenuGroupId = "pizze"
+const DEFAULT_MENU_GROUP: TMenuGroupId = "pizze"
 
 export function parseMenuGroupId(value: string | undefined): TMenuGroupId {
   return MENU_GROUPS.find((group) => group.id === value)?.id ?? DEFAULT_MENU_GROUP

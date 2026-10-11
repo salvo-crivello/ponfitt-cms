@@ -100,11 +100,15 @@ const en = {
     schiacciate: "Flatbreads"
   },
   home: {
-    promoCta: "See the menu",
     shortcutsTitle: "Browse the menu",
-    reviewTitle: "Enjoyed it?",
-    reviewText: "Leave a review and help us get known.",
-    reviewCta: "Leave a review"
+    reviewTitle: "Help us spread the word of Ponfitt",
+    reviewText: "Leave a review.",
+    lunchLabel: "Lunch of the day",
+    lunchToday: "Today",
+    lunchCta: "Weekly menu",
+    promoTitle: "Promos",
+    promoLabel: "Promo",
+    promoFrom: "from"
   },
   menuPage: {
     title: "Ponfitt Menu",
@@ -134,6 +138,18 @@ const en = {
     },
     whatsapp: "WhatsApp us",
     reachUs: "Find us"
+  },
+  lunch: {
+    title: "Weekly menu",
+    reserve: "Booking recommended",
+    tagline: "Good meals vanish fast",
+    days: {
+      mon: "Monday",
+      tue: "Tuesday",
+      wed: "Wednesday",
+      thu: "Thursday",
+      fri: "Friday"
+    }
   }
 } satisfies Translation
 

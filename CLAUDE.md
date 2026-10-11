@@ -32,8 +32,9 @@ Deploy: Vercel (no `vercel.json` needed).
   `lib/menu-i18n.ts` holds the single cast, `menu-i18n.test.ts` guarantees
   every category and item has a translation in every locale. `content/menu.ts`
   keeps only ids, names (proper nouns), prices, availability.
-- Mobile-first showcase (no ordering). Routes: `/` home (splash, promo banner,
-  shortcuts to menu groups, review card), `/menu?cat=pizze|paninoni|schiacciate`
+- Mobile-first showcase (no ordering). Routes: `/` home (lunch-of-the-day card, two promo
+  cards, shortcuts to menu groups, review card), `/lunch` (weekly lunch menu),
+  `/promo/[slug]` (offers of a promo; data in `content/promos.ts`), `/menu?cat=pizze|paninoni|schiacciate`
   (chips; `constant/menuGroups.ts` maps chips → categories, pizze = pizze +
   specials + vegetariane), `/info` (call, address, hours, services, delivery partners, Instagram, review),
   `/menu` reads `searchParams`, so it is server-rendered.

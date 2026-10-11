@@ -22,7 +22,7 @@ export function MenuList({ categories }: TMenuListProps) {
           <h2 className="font-display border-eban bg-eban text-alabastro border-4 p-2 text-[60px] leading-none tracking-wide uppercase">
             {getCategoryName(LL, category.id)}
           </h2>
-          <ul className="grid grid-cols-1 gap-x-8 gap-y-6 md:grid-cols-2">
+          <ul className="grid grid-cols-1 gap-x-8 gap-y-8 md:grid-cols-2">
             {category.items.map((item) => (
               <MenuItem
                 key={item.id}

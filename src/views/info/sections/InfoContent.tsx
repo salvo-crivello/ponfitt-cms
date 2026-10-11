@@ -29,8 +29,6 @@ export function InfoContent() {
       <h1 className="font-display border-eban border-b-6 pb-3 text-7xl leading-[0.85] tracking-wide uppercase">
         {LL.info.title()}
       </h1>
-
-      {/* The tab bar already has a prominent Call button: here contacts are a list of secondary buttons. */}
       <div className="flex flex-col gap-3">
         <ButtonLink
           href={toTelHref(business.phone)}

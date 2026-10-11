@@ -96,11 +96,15 @@ const it = {
     schiacciate: "Schiacciate"
   },
   home: {
-    promoCta: "Scopri il menu",
     shortcutsTitle: "Sfoglia il menu",
-    reviewTitle: "Ti è piaciuto?",
-    reviewText: "Lascia una recensione e aiutaci a farci conoscere.",
-    reviewCta: "Lascia una recensione"
+    reviewTitle: "Aiutaci a diffondere il verbo di Ponfitt",
+    reviewText: "Lascia una recensione.",
+    lunchLabel: "Pranzo del giorno",
+    lunchToday: "Oggi",
+    lunchCta: "Menu della settimana",
+    promoTitle: "Promo",
+    promoLabel: "Promo",
+    promoFrom: "da"
   },
   menuPage: {
     title: "Ponfitt Menu",
@@ -130,6 +134,18 @@ const it = {
     },
     whatsapp: "WhatsAppaci",
     reachUs: "Raggiungici"
+  },
+  lunch: {
+    title: "Menu della settimana",
+    reserve: "Prenotazione consigliata",
+    tagline: "I pasti buoni spariscono in fretta",
+    days: {
+      mon: "Lunedì",
+      tue: "Martedì",
+      wed: "Mercoledì",
+      thu: "Giovedì",
+      fri: "Venerdì"
+    }
   }
 } satisfies BaseTranslation
 

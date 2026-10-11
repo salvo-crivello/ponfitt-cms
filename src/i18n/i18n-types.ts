@@ -312,25 +312,41 @@ type RootTranslation = {
 	}
 	home: {
 		/**
-		 * S​c​o​p​r​i​ ​i​l​ ​m​e​n​u
-		 */
-		promoCta: string
-		/**
 		 * S​f​o​g​l​i​a​ ​i​l​ ​m​e​n​u
 		 */
 		shortcutsTitle: string
 		/**
-		 * T​i​ ​è​ ​p​i​a​c​i​u​t​o​?
+		 * A​i​u​t​a​c​i​ ​a​ ​d​i​f​f​o​n​d​e​r​e​ ​i​l​ ​v​e​r​b​o​ ​d​i​ ​P​o​n​f​i​t​t
 		 */
 		reviewTitle: string
 		/**
-		 * L​a​s​c​i​a​ ​u​n​a​ ​r​e​c​e​n​s​i​o​n​e​ ​e​ ​a​i​u​t​a​c​i​ ​a​ ​f​a​r​c​i​ ​c​o​n​o​s​c​e​r​e​.
+		 * L​a​s​c​i​a​ ​u​n​a​ ​r​e​c​e​n​s​i​o​n​e​.
 		 */
 		reviewText: string
 		/**
-		 * L​a​s​c​i​a​ ​u​n​a​ ​r​e​c​e​n​s​i​o​n​e
+		 * P​r​a​n​z​o​ ​d​e​l​ ​g​i​o​r​n​o
 		 */
-		reviewCta: string
+		lunchLabel: string
+		/**
+		 * O​g​g​i
+		 */
+		lunchToday: string
+		/**
+		 * M​e​n​u​ ​d​e​l​l​a​ ​s​e​t​t​i​m​a​n​a
+		 */
+		lunchCta: string
+		/**
+		 * P​r​o​m​o
+		 */
+		promoTitle: string
+		/**
+		 * P​r​o​m​o
+		 */
+		promoLabel: string
+		/**
+		 * d​a
+		 */
+		promoFrom: string
 	}
 	menuPage: {
 		/**
@@ -423,6 +439,42 @@ type RootTranslation = {
 		 * R​a​g​g​i​u​n​g​i​c​i
 		 */
 		reachUs: string
+	}
+	lunch: {
+		/**
+		 * M​e​n​u​ ​d​e​l​l​a​ ​s​e​t​t​i​m​a​n​a
+		 */
+		title: string
+		/**
+		 * P​r​e​n​o​t​a​z​i​o​n​e​ ​c​o​n​s​i​g​l​i​a​t​a
+		 */
+		reserve: string
+		/**
+		 * I​ ​p​a​s​t​i​ ​b​u​o​n​i​ ​s​p​a​r​i​s​c​o​n​o​ ​i​n​ ​f​r​e​t​t​a
+		 */
+		tagline: string
+		days: {
+			/**
+			 * L​u​n​e​d​ì
+			 */
+			mon: string
+			/**
+			 * M​a​r​t​e​d​ì
+			 */
+			tue: string
+			/**
+			 * M​e​r​c​o​l​e​d​ì
+			 */
+			wed: string
+			/**
+			 * G​i​o​v​e​d​ì
+			 */
+			thu: string
+			/**
+			 * V​e​n​e​r​d​ì
+			 */
+			fri: string
+		}
 	}
 }
 
@@ -725,25 +777,41 @@ export type TranslationFunctions = {
 	}
 	home: {
 		/**
-		 * Scopri il menu
-		 */
-		promoCta: () => LocalizedString
-		/**
 		 * Sfoglia il menu
 		 */
 		shortcutsTitle: () => LocalizedString
 		/**
-		 * Ti è piaciuto?
+		 * Aiutaci a diffondere il verbo di Ponfitt
 		 */
 		reviewTitle: () => LocalizedString
 		/**
-		 * Lascia una recensione e aiutaci a farci conoscere.
+		 * Lascia una recensione.
 		 */
 		reviewText: () => LocalizedString
 		/**
-		 * Lascia una recensione
+		 * Pranzo del giorno
 		 */
-		reviewCta: () => LocalizedString
+		lunchLabel: () => LocalizedString
+		/**
+		 * Oggi
+		 */
+		lunchToday: () => LocalizedString
+		/**
+		 * Menu della settimana
+		 */
+		lunchCta: () => LocalizedString
+		/**
+		 * Promo
+		 */
+		promoTitle: () => LocalizedString
+		/**
+		 * Promo
+		 */
+		promoLabel: () => LocalizedString
+		/**
+		 * da
+		 */
+		promoFrom: () => LocalizedString
 	}
 	menuPage: {
 		/**
@@ -836,6 +904,42 @@ export type TranslationFunctions = {
 		 * Raggiungici
 		 */
 		reachUs: () => LocalizedString
+	}
+	lunch: {
+		/**
+		 * Menu della settimana
+		 */
+		title: () => LocalizedString
+		/**
+		 * Prenotazione consigliata
+		 */
+		reserve: () => LocalizedString
+		/**
+		 * I pasti buoni spariscono in fretta
+		 */
+		tagline: () => LocalizedString
+		days: {
+			/**
+			 * Lunedì
+			 */
+			mon: () => LocalizedString
+			/**
+			 * Martedì
+			 */
+			tue: () => LocalizedString
+			/**
+			 * Mercoledì
+			 */
+			wed: () => LocalizedString
+			/**
+			 * Giovedì
+			 */
+			thu: () => LocalizedString
+			/**
+			 * Venerdì
+			 */
+			fri: () => LocalizedString
+		}
 	}
 }
 
