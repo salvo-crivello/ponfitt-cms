@@ -23,6 +23,22 @@ type RootTranslation = {
 		 * E​s​a​u​r​i​t​o
 		 */
 		soldOut: string
+		/**
+		 * H​o​m​e
+		 */
+		home: string
+		/**
+		 * C​h​i​a​m​a
+		 */
+		call: string
+		/**
+		 * L​i​n​g​u​a
+		 */
+		language: string
+		/**
+		 * I​n​f​o
+		 */
+		info: string
 	}
 	familyNote: {
 		/**
@@ -48,7 +64,7 @@ type RootTranslation = {
 		 */
 		vegetariane: string
 		/**
-		 * P​a​n​i​n​o​n​i
+		 * P​a​n​i​n​o​n​i​ ​d​a​ ​m​o​r​s​i​ ​s​e​r​i
 		 */
 		paninoni: string
 		/**
@@ -280,6 +296,186 @@ type RootTranslation = {
 			classica: string
 		}
 	}
+	groups: {
+		/**
+		 * P​i​z​z​e
+		 */
+		pizze: string
+		/**
+		 * P​a​n​i​n​o​n​i
+		 */
+		paninoni: string
+		/**
+		 * S​c​h​i​a​c​c​i​a​t​e
+		 */
+		schiacciate: string
+	}
+	home: {
+		/**
+		 * S​f​o​g​l​i​a​ ​i​l​ ​m​e​n​u
+		 */
+		shortcutsTitle: string
+		/**
+		 * A​i​u​t​a​c​i​ ​a​ ​d​i​f​f​o​n​d​e​r​e​ ​i​l​ ​v​e​r​b​o​ ​d​i​ ​P​o​n​f​i​t​t
+		 */
+		reviewTitle: string
+		/**
+		 * L​a​s​c​i​a​ ​u​n​a​ ​r​e​c​e​n​s​i​o​n​e​.
+		 */
+		reviewText: string
+		/**
+		 * P​r​a​n​z​o​ ​d​e​l​ ​g​i​o​r​n​o
+		 */
+		lunchLabel: string
+		/**
+		 * O​g​g​i
+		 */
+		lunchToday: string
+		/**
+		 * M​e​n​u​ ​d​e​l​l​a​ ​s​e​t​t​i​m​a​n​a
+		 */
+		lunchCta: string
+		/**
+		 * P​r​o​m​o
+		 */
+		promoTitle: string
+		/**
+		 * P​r​o​m​o
+		 */
+		promoLabel: string
+		/**
+		 * d​a
+		 */
+		promoFrom: string
+	}
+	menuPage: {
+		/**
+		 * P​o​n​f​i​t​t​ ​M​e​n​u
+		 */
+		title: string
+		subtitles: {
+			/**
+			 * P​i​z​z​e​,​ ​s​p​e​c​i​a​l​s​ ​e​ ​v​e​g​e​t​a​r​i​a​n​e
+			 */
+			pizze: string
+			/**
+			 * P​a​n​i​n​o​n​i​ ​e​ ​p​a​n​i​n​i​ ​f​a​r​c​i​t​i
+			 */
+			paninoni: string
+			/**
+			 * S​c​h​i​a​c​c​i​a​t​e​ ​f​a​r​c​i​t​e
+			 */
+			schiacciate: string
+		}
+	}
+	info: {
+		/**
+		 * I​n​f​o
+		 */
+		title: string
+		/**
+		 * C​h​i​a​m​a​c​i
+		 */
+		callUs: string
+		/**
+		 * O​r​a​r​i
+		 */
+		hours: string
+		/**
+		 * S​e​r​v​i​z​i
+		 */
+		services: string
+		/**
+		 * O​r​d​i​n​a​ ​a​ ​c​a​s​a
+		 */
+		delivery: string
+		/**
+		 * S​e​g​u​i​c​i
+		 */
+		follow: string
+		/**
+		 * R​e​c​e​n​s​i​o​n​e
+		 */
+		review: string
+		features: {
+			/**
+			 * C​o​n​s​u​m​a​z​i​o​n​e​ ​s​u​l​ ​p​o​s​t​o
+			 */
+			dineIn: string
+			/**
+			 * A​s​p​o​r​t​o
+			 */
+			takeaway: string
+			/**
+			 * C​o​n​s​e​g​n​a​ ​a​ ​d​o​m​i​c​i​l​i​o
+			 */
+			delivery: string
+			/**
+			 * T​a​v​o​l​i​ ​a​l​l​'​a​p​e​r​t​o
+			 */
+			outdoor: string
+			/**
+			 * A​c​c​e​t​t​a​ ​p​r​e​n​o​t​a​z​i​o​n​i
+			 */
+			reservations: string
+			/**
+			 * A​d​a​t​t​o​ ​a​ ​f​a​m​i​g​l​i​e​ ​e​ ​b​a​m​b​i​n​i
+			 */
+			family: string
+			/**
+			 * C​a​r​t​e​ ​e​ ​p​a​g​a​m​e​n​t​i​ ​m​o​b​i​l​e
+			 */
+			payments: string
+			/**
+			 * P​i​a​t​t​i​ ​v​e​g​e​t​a​r​i​a​n​i
+			 */
+			vegetarian: string
+		}
+		/**
+		 * W​h​a​t​s​A​p​p​a​c​i
+		 */
+		whatsapp: string
+		/**
+		 * R​a​g​g​i​u​n​g​i​c​i
+		 */
+		reachUs: string
+	}
+	lunch: {
+		/**
+		 * M​e​n​u​ ​d​e​l​l​a​ ​s​e​t​t​i​m​a​n​a
+		 */
+		title: string
+		/**
+		 * P​r​e​n​o​t​a​z​i​o​n​e​ ​c​o​n​s​i​g​l​i​a​t​a
+		 */
+		reserve: string
+		/**
+		 * I​ ​p​a​s​t​i​ ​b​u​o​n​i​ ​s​p​a​r​i​s​c​o​n​o​ ​i​n​ ​f​r​e​t​t​a
+		 */
+		tagline: string
+		days: {
+			/**
+			 * L​u​n​e​d​ì
+			 */
+			mon: string
+			/**
+			 * M​a​r​t​e​d​ì
+			 */
+			tue: string
+			/**
+			 * M​e​r​c​o​l​e​d​ì
+			 */
+			wed: string
+			/**
+			 * G​i​o​v​e​d​ì
+			 */
+			thu: string
+			/**
+			 * V​e​n​e​r​d​ì
+			 */
+			fri: string
+		}
+	}
 }
 
 export type TranslationFunctions = {
@@ -292,6 +488,22 @@ export type TranslationFunctions = {
 		 * Esaurito
 		 */
 		soldOut: () => LocalizedString
+		/**
+		 * Home
+		 */
+		home: () => LocalizedString
+		/**
+		 * Chiama
+		 */
+		call: () => LocalizedString
+		/**
+		 * Lingua
+		 */
+		language: () => LocalizedString
+		/**
+		 * Info
+		 */
+		info: () => LocalizedString
 	}
 	familyNote: {
 		/**
@@ -317,7 +529,7 @@ export type TranslationFunctions = {
 		 */
 		vegetariane: () => LocalizedString
 		/**
-		 * Paninoni
+		 * Paninoni da morsi seri
 		 */
 		paninoni: () => LocalizedString
 		/**
@@ -547,6 +759,186 @@ export type TranslationFunctions = {
 			 * prosciutto cotto, pomodoro, mozzarella, lattuga, olio, sale, origano.
 			 */
 			classica: () => LocalizedString
+		}
+	}
+	groups: {
+		/**
+		 * Pizze
+		 */
+		pizze: () => LocalizedString
+		/**
+		 * Paninoni
+		 */
+		paninoni: () => LocalizedString
+		/**
+		 * Schiacciate
+		 */
+		schiacciate: () => LocalizedString
+	}
+	home: {
+		/**
+		 * Sfoglia il menu
+		 */
+		shortcutsTitle: () => LocalizedString
+		/**
+		 * Aiutaci a diffondere il verbo di Ponfitt
+		 */
+		reviewTitle: () => LocalizedString
+		/**
+		 * Lascia una recensione.
+		 */
+		reviewText: () => LocalizedString
+		/**
+		 * Pranzo del giorno
+		 */
+		lunchLabel: () => LocalizedString
+		/**
+		 * Oggi
+		 */
+		lunchToday: () => LocalizedString
+		/**
+		 * Menu della settimana
+		 */
+		lunchCta: () => LocalizedString
+		/**
+		 * Promo
+		 */
+		promoTitle: () => LocalizedString
+		/**
+		 * Promo
+		 */
+		promoLabel: () => LocalizedString
+		/**
+		 * da
+		 */
+		promoFrom: () => LocalizedString
+	}
+	menuPage: {
+		/**
+		 * Ponfitt Menu
+		 */
+		title: () => LocalizedString
+		subtitles: {
+			/**
+			 * Pizze, specials e vegetariane
+			 */
+			pizze: () => LocalizedString
+			/**
+			 * Paninoni e panini farciti
+			 */
+			paninoni: () => LocalizedString
+			/**
+			 * Schiacciate farcite
+			 */
+			schiacciate: () => LocalizedString
+		}
+	}
+	info: {
+		/**
+		 * Info
+		 */
+		title: () => LocalizedString
+		/**
+		 * Chiamaci
+		 */
+		callUs: () => LocalizedString
+		/**
+		 * Orari
+		 */
+		hours: () => LocalizedString
+		/**
+		 * Servizi
+		 */
+		services: () => LocalizedString
+		/**
+		 * Ordina a casa
+		 */
+		delivery: () => LocalizedString
+		/**
+		 * Seguici
+		 */
+		follow: () => LocalizedString
+		/**
+		 * Recensione
+		 */
+		review: () => LocalizedString
+		features: {
+			/**
+			 * Consumazione sul posto
+			 */
+			dineIn: () => LocalizedString
+			/**
+			 * Asporto
+			 */
+			takeaway: () => LocalizedString
+			/**
+			 * Consegna a domicilio
+			 */
+			delivery: () => LocalizedString
+			/**
+			 * Tavoli all'aperto
+			 */
+			outdoor: () => LocalizedString
+			/**
+			 * Accetta prenotazioni
+			 */
+			reservations: () => LocalizedString
+			/**
+			 * Adatto a famiglie e bambini
+			 */
+			family: () => LocalizedString
+			/**
+			 * Carte e pagamenti mobile
+			 */
+			payments: () => LocalizedString
+			/**
+			 * Piatti vegetariani
+			 */
+			vegetarian: () => LocalizedString
+		}
+		/**
+		 * WhatsAppaci
+		 */
+		whatsapp: () => LocalizedString
+		/**
+		 * Raggiungici
+		 */
+		reachUs: () => LocalizedString
+	}
+	lunch: {
+		/**
+		 * Menu della settimana
+		 */
+		title: () => LocalizedString
+		/**
+		 * Prenotazione consigliata
+		 */
+		reserve: () => LocalizedString
+		/**
+		 * I pasti buoni spariscono in fretta
+		 */
+		tagline: () => LocalizedString
+		days: {
+			/**
+			 * Lunedì
+			 */
+			mon: () => LocalizedString
+			/**
+			 * Martedì
+			 */
+			tue: () => LocalizedString
+			/**
+			 * Mercoledì
+			 */
+			wed: () => LocalizedString
+			/**
+			 * Giovedì
+			 */
+			thu: () => LocalizedString
+			/**
+			 * Venerdì
+			 */
+			fri: () => LocalizedString
 		}
 	}
 }

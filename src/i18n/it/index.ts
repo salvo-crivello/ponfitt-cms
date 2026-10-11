@@ -3,7 +3,11 @@ import type { BaseTranslation } from "../i18n-types"
 const it = {
   ui: {
     menu: "Menu",
-    soldOut: "Esaurito"
+    soldOut: "Esaurito",
+    home: "Home",
+    call: "Chiama",
+    language: "Lingua",
+    info: "Info"
   },
   familyNote: {
     title: "Formato famiglia?",
@@ -13,7 +17,7 @@ const it = {
     pizze: "Le pizze di Ponfitt",
     specials: "Specials",
     vegetariane: "Le vegetariane, quelle belle",
-    paninoni: "Paninoni",
+    paninoni: "Paninoni da morsi seri",
     schiacciate: "Schiacciate"
   },
   items: {
@@ -84,6 +88,63 @@ const it = {
       spinaci: "pomodoro, mozzarella, spinaci, olio, sale, origano.",
       vegetariana: "melanzane grill, zucchine grill, mozzarella, olio, sale, origano.",
       classica: "prosciutto cotto, pomodoro, mozzarella, lattuga, olio, sale, origano."
+    }
+  },
+  groups: {
+    pizze: "Pizze",
+    paninoni: "Paninoni",
+    schiacciate: "Schiacciate"
+  },
+  home: {
+    shortcutsTitle: "Sfoglia il menu",
+    reviewTitle: "Aiutaci a diffondere il verbo di Ponfitt",
+    reviewText: "Lascia una recensione.",
+    lunchLabel: "Pranzo del giorno",
+    lunchToday: "Oggi",
+    lunchCta: "Menu della settimana",
+    promoTitle: "Promo",
+    promoLabel: "Promo",
+    promoFrom: "da"
+  },
+  menuPage: {
+    title: "Ponfitt Menu",
+    subtitles: {
+      pizze: "Pizze, specials e vegetariane",
+      paninoni: "Paninoni e panini farciti",
+      schiacciate: "Schiacciate farcite"
+    }
+  },
+  info: {
+    title: "Info",
+    callUs: "Chiamaci",
+    hours: "Orari",
+    services: "Servizi",
+    delivery: "Ordina a casa",
+    follow: "Seguici",
+    review: "Recensione",
+    features: {
+      dineIn: "Consumazione sul posto",
+      takeaway: "Asporto",
+      delivery: "Consegna a domicilio",
+      outdoor: "Tavoli all'aperto",
+      reservations: "Accetta prenotazioni",
+      family: "Adatto a famiglie e bambini",
+      payments: "Carte e pagamenti mobile",
+      vegetarian: "Piatti vegetariani"
+    },
+    whatsapp: "WhatsAppaci",
+    reachUs: "Raggiungici"
+  },
+  lunch: {
+    title: "Menu della settimana",
+    reserve: "Prenotazione consigliata",
+    tagline: "I pasti buoni spariscono in fretta",
+    days: {
+      mon: "Lunedì",
+      tue: "Martedì",
+      wed: "Mercoledì",
+      thu: "Giovedì",
+      fri: "Venerdì"
     }
   }
 } satisfies BaseTranslation
