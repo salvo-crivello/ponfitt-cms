@@ -3,7 +3,11 @@ import type { Translation } from "../i18n-types"
 const en = {
   ui: {
     menu: "Menu",
-    soldOut: "Sold out"
+    soldOut: "Sold out",
+    home: "Home",
+    call: "Call",
+    language: "Language",
+    info: "Info"
   },
   familyNote: {
     title: "Family size pizza?",
@@ -89,6 +93,47 @@ const en = {
       vegetariana: "grilled aubergines, grilled courgettes, mozzarella, oil, salt, oregano.",
       classica: "cooked ham, tomato, mozzarella, lettuce, oil, salt, oregano."
     }
+  },
+  groups: {
+    pizze: "Pizzas",
+    paninoni: "Paninoni",
+    schiacciate: "Flatbreads"
+  },
+  home: {
+    promoCta: "See the menu",
+    shortcutsTitle: "Browse the menu",
+    reviewTitle: "Enjoyed it?",
+    reviewText: "Leave a review and help us get known.",
+    reviewCta: "Leave a review"
+  },
+  menuPage: {
+    title: "Ponfitt Menu",
+    subtitles: {
+      pizze: "Pizzas, specials and vegetarian",
+      paninoni: "Paninoni and filled sandwiches",
+      schiacciate: "Filled flatbreads"
+    }
+  },
+  info: {
+    title: "Info",
+    callUs: "Call us",
+    hours: "Opening hours",
+    services: "Services",
+    delivery: "Order at home",
+    follow: "Follow us",
+    review: "Review",
+    features: {
+      dineIn: "Dine-in",
+      takeaway: "Takeaway",
+      delivery: "Home delivery",
+      outdoor: "Outdoor seating",
+      reservations: "Takes reservations",
+      family: "Family and kids friendly",
+      payments: "Cards and mobile payments",
+      vegetarian: "Vegetarian dishes"
+    },
+    whatsapp: "WhatsApp us",
+    reachUs: "Find us"
   }
 } satisfies Translation
 

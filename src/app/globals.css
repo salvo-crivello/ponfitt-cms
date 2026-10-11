@@ -1,6 +1,8 @@
 @import "tailwindcss";
 
-/* Brand palette (Visual Identity Guide 2024) */
+/* Brand palette (Visual Identity Guide 2024).
+   Style: Swiss grid + vintage print — hairline rules, double rules, square
+   corners (rounded-xs at most), flat colour, no shadows. */
 @theme inline {
   --color-eban: #160b04;
   --color-terracotta: #d26928;

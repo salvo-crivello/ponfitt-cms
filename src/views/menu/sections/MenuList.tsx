@@ -18,8 +18,8 @@ export function MenuList({ categories }: TMenuListProps) {
   return (
     <div className="mx-auto flex w-full max-w-4xl flex-col gap-12 py-8">
       {categories.map((category) => (
-        <section key={category.id} id={category.id} className="flex scroll-mt-20 flex-col gap-4">
-          <h2 className="font-display border-sabbia border-b-4 pb-2 text-4xl tracking-wide uppercase">
+        <section key={category.id} id={category.id} className="flex scroll-mt-20 flex-col gap-8">
+          <h2 className="font-display border-eban bg-eban text-alabastro border-4 p-2 text-[60px] leading-none tracking-wide uppercase">
             {getCategoryName(LL, category.id)}
           </h2>
           <ul className="grid grid-cols-1 gap-x-8 gap-y-6 md:grid-cols-2">

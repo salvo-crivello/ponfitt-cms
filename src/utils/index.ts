@@ -17,3 +17,17 @@ export function cn(...inputs: ClassValue[]) {
 export function formatPrice(amount: number, lang: string) {
   return new Intl.NumberFormat(lang, { style: "currency", currency: "EUR" }).format(amount)
 }
+
+/**
+ * Builds a `tel:` href from a human-readable phone number.
+ */
+export function toTelHref(phone: string) {
+  return `tel:${phone.replace(/\s/g, "")}`
+}
+
+/**
+ * Builds a WhatsApp chat link (`wa.me` wants digits only, with country code).
+ */
+export function toWhatsappHref(phone: string) {
+  return `https://wa.me/${phone.replace(/\D/g, "")}`
+}

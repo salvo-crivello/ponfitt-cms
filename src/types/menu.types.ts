@@ -13,3 +13,11 @@ export type TMenuCategory = {
 export type TMenu = {
   categories: TMenuCategory[]
 }
+
+export type TMenuGroupId = "pizze" | "paninoni" | "schiacciate"
+
+export type TMenuGroup = {
+  id: TMenuGroupId
+  /** Menu categories shown together under this chip. */
+  categoryIds: string[]
+}
