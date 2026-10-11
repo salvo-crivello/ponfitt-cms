@@ -26,7 +26,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - uses: ./.github/actions/setup
-      - run: yarn tsc --noEmit
+      - run: yarn typecheck
 
   test:
     name: Unit tests

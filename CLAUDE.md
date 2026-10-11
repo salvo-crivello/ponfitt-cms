@@ -56,6 +56,8 @@ to `develop`/`prod` and pushes to `develop`.
 
 ## Gotchas
 
+- Typecheck with `yarn typecheck` (runs `next typegen` first). `next-env.d.ts` is gitignored
+  and holds the `*.png` module types, so a bare `tsc` on a fresh checkout/CI fails.
 - Set `NEXT_PUBLIC_SITE_URL` on Vercel, otherwise the canonical URL points to localhost.
 - Metadata (title/description) is Italian only: language is client-side state, so
   crawlers see the Italian page. Revisit if English SEO matters.

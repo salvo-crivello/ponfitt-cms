@@ -8,6 +8,7 @@
     "build": "typesafe-i18n --no-watch && next build",
     "start": "next start",
     "lint": "eslint",
+    "typecheck": "next typegen && tsc --noEmit",
     "format": "prettier --write .",
     "format:check": "prettier --check .",
     "test": "vitest",
