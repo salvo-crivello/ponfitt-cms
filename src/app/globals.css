@@ -1,0 +1,30 @@
+@import "tailwindcss";
+
+/* Brand palette (Visual Identity Guide 2024) */
+@theme inline {
+  --color-eban: #160b04;
+  --color-terracotta: #d26928;
+  --color-sabbia: #e2d8b9;
+  --color-alabastro: #f9f5ed;
+
+  --font-display: var(--font-tackerlen), "Helvetica Neue", Helvetica, Arial, sans-serif;
+  --font-sans: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+/* Unlayered rules would beat every Tailwind utility (utilities live in
+   @layer utilities), so keep the defaults inside @layer base. */
+@layer base {
+  /* * {
+    border-color: var(--color-sabbia);
+  } */
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    background-color: var(--color-alabastro);
+    color: var(--color-eban);
+    font-family: var(--font-sans);
+  }
+}

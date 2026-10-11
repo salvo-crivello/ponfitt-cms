@@ -1,0 +1,8 @@
+{
+  "editor.quickSuggestions": { "strings": "on" },
+  "tailwindCSS.experimental.configFile": "src/app/globals.css",
+  "tailwindCSS.experimental.classRegex": [
+    ["cva\\(([^)]*)\\)", "[\"'`]([^\"'`]*)[\"'`]"],
+    ["cx\\(([^)]*)\\)", "[\"'`]([^\"'`]*)[\"'`]"]
+  ]
+}

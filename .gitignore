@@ -426,3 +426,21 @@ FodyWeavers.xsd
 
 # Official VS Code C# Dev Kit Extension exclusion
 #*.lscache
+
+# --- project ---
+/.next/
+/out/
+/build
+.env*
+!.env.example
+.vercel
+*.tsbuildinfo
+next-env.d.ts
+/playwright-report
+/test-results
+/coverage
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/versions

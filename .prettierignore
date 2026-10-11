@@ -1,0 +1,8 @@
+.next
+node_modules
+yarn.lock
+playwright-report
+test-results
+
+src/i18n/i18n-*.ts
+src/i18n/i18n-*.tsx
