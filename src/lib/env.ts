@@ -9,5 +9,6 @@ const envSchema = z.object({
 })
 
 export const env = envSchema.parse({
-  NEXT_PUBLIC_SITE_URL: process.env.NEXT_PUBLIC_SITE_URL
+  // An unset CI variable arrives as "": treat it like missing so the default applies.
+  NEXT_PUBLIC_SITE_URL: process.env.NEXT_PUBLIC_SITE_URL || undefined
 })

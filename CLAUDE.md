@@ -45,6 +45,15 @@ Deploy: Vercel (no `vercel.json` needed).
 `next/font/local`); body: Helvetica Neue stack (system font, no webfont).
 Global defaults live in `@layer base` — unlayered rules would beat utilities.
 
+## Branches & deploy
+
+`develop` (work) → PR → `prod` → GitHub Action validates, builds and deploys to
+Vercel (prebuilt, via CLI) → fast-forwards `main`. `main` is an **archive
+only**: never commit to it. `vercel.json` disables Vercel's own Git deploys so
+only the Action publishes. Secrets: `VERCEL_TOKEN`, `VERCEL_ORG_ID`,
+`VERCEL_PROJECT_ID`; variable `PRODUCTION_SITE_URL`. CI (`ci.yml`) runs on PRs
+to `develop`/`prod` and pushes to `develop`.
+
 ## Gotchas
 
 - Set `NEXT_PUBLIC_SITE_URL` on Vercel, otherwise the canonical URL points to localhost.
