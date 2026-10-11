@@ -265,6 +265,54 @@ export const menu: TMenu = {
           name: "Parmigiano",
           price: 3.5,
           available: true
+        },
+        {
+          id: "tonno",
+          name: "Tonno",
+          price: 3.5,
+          available: true
+        },
+        {
+          id: "vegetariano",
+          name: "Vegetariano",
+          price: 3.8,
+          available: true
+        },
+        {
+          id: "verdure",
+          name: "Verdure",
+          price: 3.8,
+          available: true
+        },
+        {
+          id: "san-daniele",
+          name: "San Daniele",
+          price: 4,
+          available: true
+        },
+        {
+          id: "bufalino",
+          name: "Bufalino",
+          price: 4,
+          available: true
+        },
+        {
+          id: "ponfitt-burger",
+          name: "Ponfitt Burger",
+          price: 4.3,
+          available: true
+        },
+        {
+          id: "ponfitt-chicken",
+          name: "Ponfitt Chicken",
+          price: 4.3,
+          available: true
+        },
+        {
+          id: "ponfitt-chips",
+          name: "Ponfitt Chips",
+          price: 4.3,
+          available: true
         }
       ]
     },

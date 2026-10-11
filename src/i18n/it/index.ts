@@ -69,7 +69,15 @@ const it = {
       caprese: "lattuga, pomodoro, mozzarella, olio, sale, origano.",
       "pane-consato": "caciocavallo, acciughe, pomodoro, acciughe, olio, sale, origano.",
       schiacciatina: "pomodoro, mozzarella, prosciutto, olio, sale, origano.",
-      parmigiano: "melanzane grill, pomodoro, scaglie di grana, olio, sale, origano."
+      parmigiano: "melanzane grill, pomodoro, scaglie di grana, olio, sale, origano.",
+      tonno: "lattuga, pomodoro, tonno, olio, sale, origano.",
+      vegetariano: "spinaci, melanzane grill, mozzarella, olio, sale, origano.",
+      verdure: "melanzane grill, zucchine grill, mozzarella, olio, sale, origano.",
+      "san-daniele": "crudo, scaglie di grana, pomodoro, olio, sale, origano.",
+      bufalino: "mozzarella di bufala, rucola, olio, sale, origano.",
+      "ponfitt-burger": "hamburger di carne, lattuga, pomodoro, olio, sale, origano.",
+      "ponfitt-chicken": "pollo panato, lattuga, pomodoro, olio, sale, origano.",
+      "ponfitt-chips": "pollo panato, patatine, olio, sale, origano."
     },
     schiacciate: {
       funghi: "pomodoro, mozzarella, funghi, olio, sale, origano.",
