@@ -5,26 +5,30 @@ export const lunchMenu: TLunchMenu = {
   days: [
     {
       id: "mon",
-      name: { it: "Farfallette al Salmone", en: "Farfalle with salmon" },
+      name: { it: "Primavera", en: "Primavera" },
       description: {
-        it: "Morbide farfallette avvolte in una crema di salmone dal sapore delicato.",
-        en: "Soft farfalle pasta wrapped in a delicately flavoured salmon cream."
+        it: "Un abbraccio di verdure fresche: ciliegino, zucchine e melanzane.",
+        en: "A wrap of fresh vegetables: cherry tomatoes, courgettes and aubergines."
       }
     },
     {
       id: "tue",
-      name: { it: "Pasta con broccoli al forno", en: "Baked pasta with broccoli" },
+      name: { it: "Gateau di patate", en: "Potato gateau" },
       description: {
-        it: "Pasta gratinata con broccoli freschi, un tocco di formaggio fuso e crosticina dorata.",
-        en: "Gratin pasta with fresh broccoli, a touch of melted cheese and a golden crust."
-      }
+        it: "Morbido e dorato, con un cuore filante a scelta.",
+        en: "Soft and golden, with a gooey heart of your choice."
+      },
+      variants: [
+        { it: "Prosciutto e mozzarella", en: "Ham and mozzarella" },
+        { it: "Spinaci e mozzarella", en: "Spinach and mozzarella" }
+      ]
     },
     {
       id: "wed",
-      name: { it: "Lasagna al ragù", en: "Lasagna with ragù" },
+      name: { it: "Broccoli al forno", en: "Oven-baked broccoli" },
       description: {
-        it: "La classica lasagna come una volta: sfoglia sottile, ragù saporito, besciamella che si scioglie.",
-        en: "The classic lasagna like it used to be: thin pasta sheets, tasty ragù, melting béchamel."
+        it: "Broccoli gratinati con acciughe, senza formaggio.",
+        en: "Gratin broccoli with anchovies, no cheese."
       }
     },
     {
@@ -42,7 +46,7 @@ export const lunchMenu: TLunchMenu = {
     },
     {
       id: "fri",
-      name: { it: "Primo espresso Ponfitt", en: "Ponfitt express first course" },
+      name: { it: "Piatto fantasia", en: "Fantasy dish" },
       description: {
         it: "Ogni venerdì una sorpresa diversa, preparata al momento.",
         en: "A different surprise every Friday, prepared on the spot."

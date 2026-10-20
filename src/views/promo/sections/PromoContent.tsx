@@ -39,7 +39,7 @@ export function PromoContent({ promo }: { promo: TPromo }) {
                 {formatPrice(offer.price, lang, 0)}
               </span>
             </div>
-            <p className="text-sm opacity-70">{offer.description[lang]}</p>
+            <p className="text-md opacity-70">{offer.description[lang]}</p>
           </li>
         ))}
       </ul>
