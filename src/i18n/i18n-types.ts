@@ -83,6 +83,10 @@ type RootTranslation = {
 			 */
 			marinara: string
 			/**
+			 * p​o​m​o​d​o​r​o​,​ ​m​o​z​z​a​r​e​l​l​a​,​ ​a​c​c​i​u​g​h​e​,​ ​o​l​i​o​,​ ​s​a​l​e​,​ ​o​r​i​g​a​n​o​.
+			 */
+			napoletana: string
+			/**
 			 * g​r​a​n​a​,​ ​c​a​c​i​o​c​a​v​a​l​l​o​,​ ​o​l​i​o​,​ ​s​a​l​e​,​ ​o​r​i​g​a​n​o​.
 			 */
 			'faccia-da-vecchia': string
@@ -233,7 +237,7 @@ type RootTranslation = {
 			 */
 			caprese: string
 			/**
-			 * c​a​c​i​o​c​a​v​a​l​l​o​,​ ​a​c​c​i​u​g​h​e​,​ ​p​o​m​o​d​o​r​o​,​ ​a​c​c​i​u​g​h​e​,​ ​o​l​i​o​,​ ​s​a​l​e​,​ ​o​r​i​g​a​n​o​.
+			 * c​a​c​i​o​c​a​v​a​l​l​o​,​ ​a​c​c​i​u​g​h​e​,​ ​p​o​m​o​d​o​r​o​,​ ​o​l​i​o​,​ ​s​a​l​e​,​ ​o​r​i​g​a​n​o​.
 			 */
 			'pane-consato': string
 			/**
@@ -241,7 +245,7 @@ type RootTranslation = {
 			 */
 			schiacciatina: string
 			/**
-			 * m​e​l​a​n​z​a​n​e​ ​g​r​i​l​l​,​ ​p​o​m​o​d​o​r​o​,​ ​s​c​a​g​l​i​e​ ​d​i​ ​g​r​a​n​a​,​ ​o​l​i​o​,​ ​s​a​l​e​,​ ​o​r​i​g​a​n​o​.
+			 * m​e​l​a​n​z​a​n​e​ ​f​r​i​t​t​e​,​ ​p​o​m​o​d​o​r​o​,​ ​s​c​a​g​l​i​e​ ​d​i​ ​g​r​a​n​a​,​ ​o​l​i​o​,​ ​s​a​l​e​,​ ​o​r​i​g​a​n​o​.
 			 */
 			parmigiano: string
 			/**
@@ -261,29 +265,25 @@ type RootTranslation = {
 			 */
 			'san-daniele': string
 			/**
-			 * m​o​z​z​a​r​e​l​l​a​ ​d​i​ ​b​u​f​a​l​a​,​ ​r​u​c​o​l​a​,​ ​o​l​i​o​,​ ​s​a​l​e​,​ ​o​r​i​g​a​n​o​.
+			 * p​r​o​s​c​i​u​t​t​o​ ​c​r​u​d​o​,​ ​m​o​z​z​a​r​e​l​l​a​ ​d​i​ ​b​u​f​a​l​a​,​ ​r​u​c​o​l​a​,​ ​o​l​i​o​,​ ​s​a​l​e​,​ ​o​r​i​g​a​n​o​.
 			 */
 			bufalino: string
 			/**
-			 * h​a​m​b​u​r​g​e​r​ ​d​i​ ​c​a​r​n​e​,​ ​l​a​t​t​u​g​a​,​ ​p​o​m​o​d​o​r​o​,​ ​o​l​i​o​,​ ​s​a​l​e​,​ ​o​r​i​g​a​n​o​.
+			 * h​a​m​b​u​r​g​e​r​ ​d​i​ ​c​a​r​n​e​,​ ​l​a​t​t​u​g​a​/​p​a​t​a​t​i​n​e​,​ ​o​l​i​o​,​ ​s​a​l​e​,​ ​o​r​i​g​a​n​o​.
 			 */
 			'ponfitt-burger': string
 			/**
-			 * p​o​l​l​o​ ​p​a​n​a​t​o​,​ ​l​a​t​t​u​g​a​,​ ​p​o​m​o​d​o​r​o​,​ ​o​l​i​o​,​ ​s​a​l​e​,​ ​o​r​i​g​a​n​o​.
+			 * p​o​l​l​o​ ​p​a​n​a​t​o​,​ ​l​a​t​t​u​g​a​/​p​a​t​a​t​i​n​e​,​ ​o​l​i​o​,​ ​s​a​l​e​,​ ​o​r​i​g​a​n​o​.
 			 */
 			'ponfitt-chicken': string
-			/**
-			 * p​o​l​l​o​ ​p​a​n​a​t​o​,​ ​p​a​t​a​t​i​n​e​,​ ​o​l​i​o​,​ ​s​a​l​e​,​ ​o​r​i​g​a​n​o​.
-			 */
-			'ponfitt-chips': string
 		}
 		schiacciate: {
 			/**
-			 * p​o​m​o​d​o​r​o​,​ ​m​o​z​z​a​r​e​l​l​a​,​ ​f​u​n​g​h​i​,​ ​o​l​i​o​,​ ​s​a​l​e​,​ ​o​r​i​g​a​n​o​.
+			 * p​r​o​s​c​i​u​t​t​o​ ​c​o​t​t​o​,​ ​p​o​m​o​d​o​r​o​,​ ​m​o​z​z​a​r​e​l​l​a​,​ ​f​u​n​g​h​i​,​ ​o​l​i​o​,​ ​s​a​l​e​,​ ​o​r​i​g​a​n​o​.
 			 */
 			funghi: string
 			/**
-			 * p​o​m​o​d​o​r​o​,​ ​m​o​z​z​a​r​e​l​l​a​,​ ​s​p​i​n​a​c​i​,​ ​o​l​i​o​,​ ​s​a​l​e​,​ ​o​r​i​g​a​n​o​.
+			 * p​r​o​s​c​i​u​t​t​o​ ​c​o​t​t​o​,​ ​m​o​z​z​a​r​e​l​l​a​,​ ​s​p​i​n​a​c​i​,​ ​o​l​i​o​,​ ​s​a​l​e​,​ ​o​r​i​g​a​n​o​.
 			 */
 			spinaci: string
 			/**
@@ -548,6 +548,10 @@ export type TranslationFunctions = {
 			 */
 			marinara: () => LocalizedString
 			/**
+			 * pomodoro, mozzarella, acciughe, olio, sale, origano.
+			 */
+			napoletana: () => LocalizedString
+			/**
 			 * grana, caciocavallo, olio, sale, origano.
 			 */
 			'faccia-da-vecchia': () => LocalizedString
@@ -698,7 +702,7 @@ export type TranslationFunctions = {
 			 */
 			caprese: () => LocalizedString
 			/**
-			 * caciocavallo, acciughe, pomodoro, acciughe, olio, sale, origano.
+			 * caciocavallo, acciughe, pomodoro, olio, sale, origano.
 			 */
 			'pane-consato': () => LocalizedString
 			/**
@@ -706,7 +710,7 @@ export type TranslationFunctions = {
 			 */
 			schiacciatina: () => LocalizedString
 			/**
-			 * melanzane grill, pomodoro, scaglie di grana, olio, sale, origano.
+			 * melanzane fritte, pomodoro, scaglie di grana, olio, sale, origano.
 			 */
 			parmigiano: () => LocalizedString
 			/**
@@ -726,29 +730,25 @@ export type TranslationFunctions = {
 			 */
 			'san-daniele': () => LocalizedString
 			/**
-			 * mozzarella di bufala, rucola, olio, sale, origano.
+			 * prosciutto crudo, mozzarella di bufala, rucola, olio, sale, origano.
 			 */
 			bufalino: () => LocalizedString
 			/**
-			 * hamburger di carne, lattuga, pomodoro, olio, sale, origano.
+			 * hamburger di carne, lattuga/patatine, olio, sale, origano.
 			 */
 			'ponfitt-burger': () => LocalizedString
 			/**
-			 * pollo panato, lattuga, pomodoro, olio, sale, origano.
+			 * pollo panato, lattuga/patatine, olio, sale, origano.
 			 */
 			'ponfitt-chicken': () => LocalizedString
-			/**
-			 * pollo panato, patatine, olio, sale, origano.
-			 */
-			'ponfitt-chips': () => LocalizedString
 		}
 		schiacciate: {
 			/**
-			 * pomodoro, mozzarella, funghi, olio, sale, origano.
+			 * prosciutto cotto, pomodoro, mozzarella, funghi, olio, sale, origano.
 			 */
 			funghi: () => LocalizedString
 			/**
-			 * pomodoro, mozzarella, spinaci, olio, sale, origano.
+			 * prosciutto cotto, mozzarella, spinaci, olio, sale, origano.
 			 */
 			spinaci: () => LocalizedString
 			/**

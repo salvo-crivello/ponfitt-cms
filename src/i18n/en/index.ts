@@ -24,6 +24,7 @@ const en = {
     pizze: {
       margherita: "tomato, mozzarella, olive oil, salt, oregano.",
       marinara: "tomato, anchovies, olive oil, salt, oregano.",
+      napoletana: "tomato, mozzarella, anchovies, olive oil, salt, oregano.",
       "faccia-da-vecchia": "grana cheese, caciocavallo cheese, olive oil, salt, oregano.",
       romana: "tomato, mozzarella, ham, olive oil, salt, oregano.",
       bufalina: "tomato, buffalo mozzarella, olive oil, salt, oregano.",
@@ -75,21 +76,20 @@ const en = {
     },
     paninoni: {
       caprese: "lettuce, tomato, mozzarella, oil, salt, oregano.",
-      "pane-consato": "caciocavallo cheese, anchovies, tomato, anchovies, oil, salt, oregano.",
+      "pane-consato": "caciocavallo cheese, anchovies, tomato, oil, salt, oregano.",
       schiacciatina: "tomato, mozzarella, ham, oil, salt, oregano.",
-      parmigiano: "grilled aubergines, tomato, parmesan flakes, oil, salt, oregano.",
+      parmigiano: "fried aubergines, tomato, parmesan flakes, oil, salt, oregano.",
       tonno: "lettuce, tomato, tuna fish, oil, salt, oregano.",
       vegetariano: "spinach, grilled aubergines, mozzarella, oil, salt, oregano.",
       verdure: "grilled aubergines, grilled courgettes, mozzarella, oil, salt, oregano.",
       "san-daniele": "cured ham, parmesan flakes, tomato, oil, salt, oregano.",
-      bufalino: "buffalo mozzarella, rocket, oil, salt, oregano.",
-      "ponfitt-burger": "beef burger, lettuce, tomato, oil, salt, oregano.",
-      "ponfitt-chicken": "breaded chicken, lettuce, tomato, oil, salt, oregano.",
-      "ponfitt-chips": "breaded chicken, chips, oil, salt, oregano."
+      bufalino: "cured ham, buffalo mozzarella, rocket, oil, salt, oregano.",
+      "ponfitt-burger": "beef burger, lettuce/chips, oil, salt, oregano.",
+      "ponfitt-chicken": "breaded chicken, lettuce/chips, oil, salt, oregano."
     },
     schiacciate: {
-      funghi: "tomato, mozzarella, mushrooms, oil, salt, oregano.",
-      spinaci: "tomato, mozzarella, spinach, oil, salt, oregano.",
+      funghi: "cooked ham, tomato, mozzarella, mushrooms, oil, salt, oregano.",
+      spinaci: "cooked ham, mozzarella, spinach, oil, salt, oregano.",
       vegetariana: "grilled aubergines, grilled courgettes, mozzarella, oil, salt, oregano.",
       classica: "cooked ham, tomato, mozzarella, lettuce, oil, salt, oregano."
     }

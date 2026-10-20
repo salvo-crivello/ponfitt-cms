@@ -18,6 +18,12 @@ export const menu: TMenu = {
           available: true
         },
         {
+          id: "napoletana",
+          name: "Napoletana",
+          price: 6,
+          available: true
+        },
+        {
           id: "faccia-da-vecchia",
           name: "Faccia da vecchia",
           price: 6,
@@ -56,7 +62,7 @@ export const menu: TMenu = {
         {
           id: "delicata",
           name: "Delicata",
-          price: 7,
+          price: 7.5,
           available: true
         },
         {
@@ -110,7 +116,7 @@ export const menu: TMenu = {
         {
           id: "msc",
           name: "MSC",
-          price: 7.5,
+          price: 8,
           available: true
         },
         {
@@ -222,7 +228,7 @@ export const menu: TMenu = {
         {
           id: "contadina",
           name: "Contadina",
-          price: 7.5,
+          price: 8,
           available: true
         },
         {
@@ -305,12 +311,6 @@ export const menu: TMenu = {
         {
           id: "ponfitt-chicken",
           name: "Ponfitt Chicken",
-          price: 4.3,
-          available: true
-        },
-        {
-          id: "ponfitt-chips",
-          name: "Ponfitt Chips",
           price: 4.3,
           available: true
         }
