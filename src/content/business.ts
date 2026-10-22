@@ -2,7 +2,7 @@ import type { TBusiness } from "@/types/business.types"
 
 export const business: TBusiness = {
   phone: "+39 091 616 8521",
-  whatsapp: "+39 329 715 2989",
+  whatsapp: "+39 091 616 8521",
   address: ["Via Michele Cipolla, 77", "90123 Palermo"],
   // Coordinates and feature id come from the pizzeria's Google Maps listing.
   mapsUrl: "https://www.google.com/maps/dir/?api=1&destination=38.1103242,13.3711891",

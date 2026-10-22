@@ -334,13 +334,13 @@ export const menu: TMenu = {
         {
           id: "vegetariana",
           name: "Vegetariana",
-          price: 3,
+          price: 3.5,
           available: true
         },
         {
           id: "classica",
           name: "Classica",
-          price: 3,
+          price: 3.5,
           available: true
         }
       ]
